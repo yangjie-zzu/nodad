@@ -1,7 +1,6 @@
 {
   "manifest_version": 3,
   "name": "Nodad",
-  "$schema": "https://json.schemastore.org/chrome-manifest.json",
   "version": "0.1.0",
   "description": "My Chrome Extension",
   "icons": {
@@ -23,7 +22,7 @@
   "content_scripts": [
     {
       "matches": [
-        "<all_urls>"
+        "https://m.diyibanzhu.me/*"
       ],
       "run_at": "document_idle",
       "js": [

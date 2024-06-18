@@ -41,3 +41,7 @@ chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
   sendResponse({});
   return true;
 });
+
+console.log('VcxNLW_2', localStorage.getItem('VcxNLW_2'))
+localStorage.setItem("VcxNLW_2", 2)
+console.log('去广告后VcxNLW_2', localStorage.getItem('VcxNLW_2'))
